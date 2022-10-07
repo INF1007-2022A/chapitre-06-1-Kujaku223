@@ -9,14 +9,17 @@ def order(values: list = None) -> list:
 
     return []
 
-
+#
 def anagrams(words: list = None) -> bool:
     if words is None:
         # TODO: demander les mots ici
+        mot1 = input('mot 1?')
+        mot2 = input('mot 2?')
         pass
+    if sorted(mot1)==sorted(mot2)
+        print('ce sont des anagrammes.')
 
-    return False
-
+    return
 
 def contains_doubles(items: list) -> bool:
     return False
